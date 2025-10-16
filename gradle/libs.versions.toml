@@ -17,5 +17,6 @@ spring-boot-starter-thymeleaf = { module = "org.springframework.boot:spring-boot
 spring-boot-starter-web = { module = "org.springframework.boot:spring-boot-starter-web" }
 spring-boot-starter-data-jpa = { module = "org.springframework.boot:spring-boot-starter-data-jpa" }
 spring-boot-starter-test = { module = "org.springframework.boot:spring-boot-starter-test" }
-ninjasquad-springmocck = { module = "com.ninja-squad:springmockk", version.ref = "springmockk" }
+ninjasquad-springmockk = { module = "com.ninja-squad:springmockk", version.ref = "springmockk" }
 h2database-h2 = { module ="com.h2database:h2" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }

@@ -26,7 +26,8 @@ dependencies {
     runtimeOnly(libs.h2database.h2)
 
     testImplementation(libs.spring.boot.starter.test)
-    testImplementation(libs.ninjasquad.springmocck)
+    testImplementation(libs.ninjasquad.springmockk)
+    testImplementation("io.mockk:mockk:1.13.11")
 }
 
 tasks.withType<Test> {
